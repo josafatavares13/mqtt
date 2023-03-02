@@ -1,0 +1,66 @@
+{
+    "mqtt": {
+        "host": "192.168.1.164",
+        "port": 1883,
+        "topics": [
+            "N/102c6b9d30f3/pvinverter/20/Ac/Power",
+            "N/102c6b9d30f3/pvinverter/20/Ac/Energy/Forward",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L1/Power",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L1/Energy/Forward",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L1/Voltage",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L1/Current",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L2/Power",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L2/Energy/Forward",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L2/Voltage",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L2/Current",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L3/Power",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L3/Energy/Forward",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L3/Voltage",
+            "N/102c6b9d30f3/pvinverter/20/Ac/L3/Current",
+            "N/102c6b9d30f3/system/0/Ac/Grid/L1/Power",
+            "N/102c6b9d30f3/system/0/Ac/Grid/L2/Power",
+            "N/102c6b9d30f3/system/0/Ac/Grid/L3/Power"
+        ],
+        "topics2": [
+            "N/102c6b9d30f3/system/0/Dc/Battery/Power",
+            "N/102c6b9d30f3/system/0/Dc/Battery/Voltage",
+            "N/102c6b9d30f3/vebus/276/Dc/0/Current"
+        ],
+        "topics3": [
+            "N/102c6b9d30f3/system/0/Dc/Battery/Soc"
+        ],
+        "topics4": [
+            "N/102c6b9d30f3/battery/512/Alarms/HighChargeTemperature",
+            "N/102c6b9d30f3/battery/512/Alarms/LowChargeTemperature",
+            "N/102c6b9d30f3/battery/512/Alarms/HighTemperature",
+            "N/102c6b9d30f3/battery/512/Alarms/LowTemperature"
+        ],
+        "topics5": [
+            "N/102c6b9d30f3/vebus/276/Ac/Out/L1/P",
+            "N/102c6b9d30f3/vebus/276/Ac/Out/L1/V",
+            "N/102c6b9d30f3/vebus/276/Ac/Out/L1/I",
+            "N/102c6b9d30f3/vebus/276/Ac/Out/L1/F"
+        ],
+        "topics6": [
+            "N/102c6b9d30f3/solarcharger/0/Yield/Power",
+            "N/102c6b9d30f3/solarcharger/0/Pv/V"
+        ],
+        "topics7": [
+            "N/102c6b9d30f3/solarcharger/1/Yield/Power",
+            "N/102c6b9d30f3/solarcharger/1/Pv/V"
+        ],
+        "topics8": [
+            "N/102c6b9d30f3/vebus/276/Ac/Out/P",
+            "N/102c6b9d30f3/system/0/Ac/In/0/Connected",
+            "N/102c6b9d30f3/system/0/Ac/In/1/Connected"
+        ]
+    
+    },
+    "database": {
+        "name": "mqtt",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost"
+    }
+}
+

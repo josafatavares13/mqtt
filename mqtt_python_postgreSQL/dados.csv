@@ -1,0 +1,4 @@
+tensao_ac_l1,tensao_ac_l2,tensao_ac_l3,corrente_ac_l1,corrente_ac_l2,energia_ac_l1,energia_ac_l2,energia_ac_l3,potencia_ac_l1,potencia_ac_l2,potencia_ac_l3
+220,210,215,1.5,1.4,100,150,120,1000,1200,1100
+230,220,225,2.0,1.9,200,250,220,1500,1700,1600
+240,230,235,2.5,2.4,300,350,320,2000,2200,2100
